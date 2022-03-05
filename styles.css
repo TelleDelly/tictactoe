@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.board{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.who-goes-first-init{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.game-info{
+    display: inline-block
+}
+
+.who-goes-first-final{
+    display: none;
+}
+
+.player-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.player1{
+    margin: 15px auto;
+    padding-right: 30px;
+}
+
+.player2{
+    margin: 15px auto;
+    padding-right: 30px;
+}
+
+.choices{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.square{
+    width: 33%;
+    height: 33%;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
